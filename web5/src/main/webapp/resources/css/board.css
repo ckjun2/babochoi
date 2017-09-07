@@ -1,0 +1,86 @@
+a {
+   text-decoration: none;
+   color: black;
+}
+
+h1 {
+   text-align: center;
+}
+
+section {
+   margin: 0 auto;
+   width: 850px;
+}
+
+section table {
+   border-collapse: collapse;
+   width: 100%;
+   border-bottom: 1px solid lightgray;
+}
+
+section table tr.header {
+   border-top: 2px solid #0066ff;
+   text-align: center;
+   background-color: #f5f5f0;
+   font-size: 15px;
+}
+
+section table tr.header td {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+section table tr.item {
+   border-top: 1px solid lightgray;
+   font-size: 12px;
+}
+
+section table tr.item:hover {
+   background-color: #e6f0ff;
+}
+
+section table tr.item td {
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+td.num, td.title, td.writer,td.created_at,td.visit_num {
+   text-align: center;
+}
+
+div.button_pane {
+   margin-top: 10px;
+   text-align: right;
+}
+
+div.page_navi {
+   font-size: 12px;
+}
+
+input[type=text] {
+   width: 120px;
+   height: 20px;
+}
+
+input[type=button] {
+   vertical-align: middle;
+   background-color: #0066ff;
+   color: white;
+   border: 0px solid #0066ff;
+   cursor: pointer;
+   -webkit-box-shadow: 0px 1px 3px #666666;
+   -moz-box-shadow: 0px 1px 3px #666666;
+   box-shadow: 0px 1px 3px #666666;
+   font-size: 12px;
+   padding: 4px 10px 5px 10px;
+}
+
+input[type=button]:hover {
+   background: #3cb0fd;
+   text-decoration: none;
+}
+
+div.page_navi, div.search_form {
+   text-align: center;
+   margin-top: 30px;
+}
