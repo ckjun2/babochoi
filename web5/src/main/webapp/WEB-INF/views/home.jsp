@@ -13,7 +13,7 @@
 <c:if test="${loginId != null}">
 <p>* ${loginId}(${loginName})님 로그인 중</p>
 </c:if>
-
+r
 <ul>
 <c:if test="${loginId == null}">
 <li><a href="customer/joinForm">회원가입</a></li>
@@ -26,7 +26,9 @@
 </c:if>
 
 <li><a href="board/list">게시판</a></li>
-
+<!-- 이렇게 새로운 코드 작업을 햇어 -->
+<!-- 이걸 반영해야대자나 -->
+<!-- 그럼 일단 로컬에 commit을 먼저해야대 -->
 </ul>
 </body>
 </html>

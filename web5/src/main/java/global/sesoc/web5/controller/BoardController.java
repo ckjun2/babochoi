@@ -28,6 +28,8 @@ public class BoardController {
   public String list(Model model)
   { //DB에 글 전체(날짜의 역순)읽어서 모델에 저장
 	
+	 int num = 0; // 새 코드 추가
+	 
 	BoardMapper mapper=sqlsession.getMapper(BoardMapper.class);  
 	ArrayList<Board> board=mapper.select(); 
    System.out.println(board);
